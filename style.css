@@ -33,7 +33,8 @@ body {
   margin: 0 auto 0;
 }
 
-.task-field, .task-label {
+.task-field,
+.task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -43,12 +44,15 @@ body {
   display: flex;
 }
 
-#incomplete-tasks-block, #completed-tasks-block {
+#incomplete-tasks-block,
+#completed-tasks-block {
   margin: 0;
   padding: 0px;
 }
 
-.incomplete-tasks-item, .completed-tasks-item, .block-title {
+.incomplete-tasks-item,
+.completed-tasks-item,
+.block-title {
   list-style: none;
 }
 
