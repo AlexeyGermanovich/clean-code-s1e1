@@ -13,7 +13,7 @@ body {
 .matrix-block img {
   width: 100%;
 }
-.matrix-block .more-inf-link {
+.matrix-block .more-info-link {
   font-family: fantasy, cursive;
 }
 
@@ -21,7 +21,7 @@ body {
 .matrix-block { text-align: center;
 }
 }
-.centered-main-page-element {
+.wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
