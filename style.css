@@ -37,7 +37,7 @@ body {
 .task-label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -182,12 +182,12 @@ body {
 /* Edit Task */
 .incomplete-tasks-item .task-field,
 .completed-tasks-item .task-field {
-  display:none
+  display:none;
 }
 
 .edit-mode .task-field {
   display:inline-block;
-  width:224px
+  width:224px;
 }
 
 .edit-mode .task-label {
