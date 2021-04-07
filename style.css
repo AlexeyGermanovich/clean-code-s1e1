@@ -148,8 +148,8 @@
   width: 226px;
 }
 
-.incomplete-tasks__item >  .section__task-field,
-.completed-tasks__item >  .section__task-field {
+.incomplete-tasks__item .section__task-field,
+.completed-tasks__item .section__task-field {
   width: 226px;
 }
 
