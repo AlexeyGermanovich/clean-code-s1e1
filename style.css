@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -21,11 +21,9 @@ body {
 }
 
 @media (max-width: 768px) {
-
-.matrix-header__block { 
-  text-align: center;
-}
-
+  .matrix-header__block { 
+    text-align: center;
+  }
 }
 
 .wrapper {
@@ -45,8 +43,8 @@ body {
   display: flex;
 }
 
-#incomplete-tasks__block,
-#completed-tasks__block {
+.incomplete-tasks__block,
+.completed-tasks__block {
   margin: 0;
   padding: 0px;
 }
@@ -135,10 +133,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.incomplete-tasks__item > *,
-.completed-tasks__item > *  {
   vertical-align: middle;
 }
 
@@ -156,7 +150,7 @@ body {
 
 .incomplete-tasks__item >  .section__task-field,
 .completed-tasks__item >  .section__task-field {
-  width: 226px
+  width: 226px;
 }
 
 .all-tasks__delete-btn:hover {
@@ -174,7 +168,7 @@ body {
 }
 
 /* Completed */
-#completed-tasks__block .all-tasks__label {
+.completed-tasks__block .all-tasks__label {
   text-decoration: line-through;
   color: #888;
 }
